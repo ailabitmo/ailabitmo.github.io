@@ -9,7 +9,6 @@ url: "http://machine2-ailab.tk" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
-# Build settings
 markdown: kramdown
 
 exclude: [dockerfile]
