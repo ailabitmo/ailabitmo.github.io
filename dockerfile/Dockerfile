@@ -18,7 +18,10 @@ RUN cd jekyll-hook && pwd && npm install
 WORKDIR /jekyll-hook
 
 ADD config.json /jekyll-hook/
+
 ADD publish.sh /jekyll-hook/scripts/publish.sh
+RUN chmod 755 /jekyll-hook/scripts/publish.sh
+
 ADD run.sh /jekyll-hook/
 
 RUN chmod 777 /jekyll-hook/run.sh
