@@ -1,0 +1,14 @@
+---
+layout: base
+---
+<h1>{{site.data.locales[page.locale].page_titles.blog}}</h1>
+
+{% for post in site.posts | where: 'lang', page.locale %}
+<h2>{{ post.title }}</h2>
+<p>
+    {{ post.excerpt }}
+
+    <br/>
+    <a href="{{post.url}}">{{site.data.locales[page.locale].read_more}}</a>
+</p>
+{% endfor %}

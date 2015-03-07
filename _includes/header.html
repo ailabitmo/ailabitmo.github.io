@@ -1,27 +1,51 @@
-<header class="site-header">
+{% assign current = page.url | downcase | replace: 'index.html' ''%}
+{% assign current_noloc = current | replace: "/en/", "" | replace: "/ru/", "" %}
+{% capture locale %}{{ page.url | truncate: 3, "" | remove: "/" }}{% endcapture %}
 
-  <div class="wrapper">
+{% unless site.authorized_locales contains locale %}
+    {% assign locale = site.default_locale %}
+{% endunless %}
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+<div id="site-logo"><a href="http://impact-theme.techsaran.com/" title="Home">
+    <img src="/assets/logo.png" alt="Home"/>
+</a><a href="{{ site.data.locales[locale].switch_lang_url }}{{ current_noloc }}" class="switch-locale">
+    <span>{{ site.data.locales[locale].switch_lang_message }}</span></a></div>
 
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <svg viewBox="0 0 18 15">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </a>
+<div class="social-profile">
+    <ul>
+        <li class="facebook">
+            <a target="_blank" title="Impact Theme in Facebook" href="https://www.facebook.com/ISSTLaboratory">Impact
+                Theme Facebook </a>
+        </li>
+        <li class="twitter">
+            <a target="_blank" title="Impact Theme in Twitter" href="https://twitter.com/ailabitmo">Impact
+                Theme Twitter </a>
+        </li>
+        <!--<li class="google-plus">-->
+        <!--<a target="_blank" title="Impact Theme in Google+"-->
+        <!--href="https://plus.google.com/u/0/109064032428497406718">Impact Theme Google+ </a>-->
+        <!--</li>-->
+    </ul>
+</div>
+<nav id="navigation" role="navigation">
+    <div id="main-menu">
+        <ul class="menu l_tinynavNaN">
+            {% assign class = "first" %}
+            {% assign last_index = site.data.locales.nav_length | minus: 1 %}
+            {% assign i = 0 %}
 
-      <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </nav>
+            {% for menu_item in site.data.locales[locale].nav %}
+                <li class="leaf {{class}}"><a {% if menu_item[0] == current %}class="active"{% endif %}
+                                              href="{{menu_item[0]}}">{{menu_item[1]}}</a></li>
+                {% assign i = i | plus: 1 %}
+                {% if i == last_index %}
+                    {% assign class = 'last' %}
+                {% else %}
+                    {% assign class = '' %}
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
 
-  </div>
-
-</header>
+</nav>
+    

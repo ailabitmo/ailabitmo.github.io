@@ -1,0 +1,58 @@
+################################################################################
+-
+  name:
+      en: SemIoT (Semantic tecnologies for Internet of Things)
+      ru: SemIoT (Semantic tecnologies for Internet of Things)
+  website: 'http://semiot.ru/'
+  description:
+      en: >
+        Project of Laboratory ISST dedicated to the development of the
+        prototype scalable service-oriented software and hardware platform
+        based on wireless sensor networks and agent-based, semantic web technologies
+        and cloud computing in order to aggregation, normalization, analysis
+        and visualization of large amounts of heterogeneous structured,
+        semi-structured and unstructured data in a distributed network
+        of electronic consumer devices (Internet of Things).
+
+        Grant under the Federal Target Program “Research and development
+        in priority areas of scientific and technological complex of Russia for 2014-2020”.
+      ru: >
+        SemIoT (Semantic tecnologies for Internet of Things) -
+        научно-исследовательский проект лаборатории ISST,
+        выполняемый в рамках гранта по Федеральной целевой программе
+        «Исследования и разработки по приоритетным направлениям развития
+        научно-технологического комплекса России на 2014—2020 годы».
+
+        Тема гранта: "Разработка прототипа масштабируемой
+        сервис-ориентированной программно-аппаратной платформы на основе
+        беспроводных сенсорных и агентных сетей, технологий семантического
+        веба и облачных вычислений в целях агрегации, нормализации,
+        анализа и визуализации больших массивов гетерогенных структурированных,
+        полуструктурированных и неструктурированных данных в распределенной
+        сети электронных потребительских устройств (Internet of Things)".
+  photo: /assets/project/semiot.jpg
+
+################################################################################
+-
+  name:
+      en: OntoDia — Сервис создания диаграмм на основе онтологических данных
+      ru: OntoDia — Сервис создания диаграмм на основе онтологических данных
+  website: 'http://ontodia.org/'
+  description:
+      en: >
+        Веб-сервис позволяет подключиться через SPARQL-endpoint к любому доступному
+        в интернете RDF-хранилищу и осуществлять пошаговую навигацию по данным,
+        представляемых в виде графа. В навигаторе впервые решена проблема
+        визуализации больших наборов онтологических данных. Сервис предназначен
+        для управляемой пользователем визализации онтологических данных в виде диаграмм.
+        Диаграммы позволяют пользователю делиться теми знаниями, которые находятся в его
+        базе знаний и обсуждать их на концептуальном уровне.
+      ru: >
+        Веб-сервис позволяет подключиться через SPARQL-endpoint к любому
+        доступному в интернете RDF-хранилищу и осуществлять пошаговую навигацию
+        по данным, представляемых в виде графа. В навигаторе впервые решена проблема
+        визуализации больших наборов онтологических данных. Сервис предназначен для
+        управляемой пользователем визализации онтологических данных в виде диаграмм.
+        Диаграммы позволяют пользователю делиться теми знаниями, которые находятся
+        в его базе знаний и обсуждать их на концептуальном уровне.
+  photo: /assets/project/ontodia.jpg

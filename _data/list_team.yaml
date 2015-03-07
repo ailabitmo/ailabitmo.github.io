@@ -1,0 +1,33 @@
+########################################
+-
+  name:
+    en: Peter Haase
+    ru: Peter Haase
+  position:
+    en: Head of the laboratory
+    ru: Руководитель лаборатории
+  degree:
+    en: Ph.D. (Technical)
+    ru: Ph.D. (Technical)
+  workplace:
+    en: metaphacts GmbH, CEO
+    ru: metaphacts GmbH, CEO
+  email: peter.haase@fluidops.com
+  photo: /assets/photo/ph.jpg
+
+########################################
+-
+  name:
+      en: Dmitry Mouromtsev
+      ru: Дмитрий Муромцев
+  position:
+      en: Head of the laboratory
+      ru: Руководитель лаборатории
+  degree:
+      en: Dean, Ph.D. (Technical)
+      ru: Доцент, к.т.н.
+#  workplace:
+#      en: ITMO University
+#      ru: Университет ИТМО
+  email: mouromtsev@mail.ifmo.ru
+  photo: /assets/photo/dm.jpg

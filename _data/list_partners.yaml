@@ -1,0 +1,22 @@
+########################################
+-
+  name:
+    en: IBM Research Lab in Haifa
+    ru: IBM Research Lab in Haifa
+  website: https://www.research.ibm.com/haifa/research.shtml
+  town_country:
+    en: Haifa, Israel
+    ru: Хайфа, Израиль
+  photo: /assets/partner/ibm.jpg
+
+########################################
+-
+  name:
+    en: STI International
+    ru: STI International
+  website: http://www.sti2.org/
+  town_country:
+    en: Innsbruck, Austria
+    ru: Инсбрук, Австрия
+  photo: /assets/partner/ibm.jpg
+

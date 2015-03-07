@@ -1,0 +1,13 @@
+---
+layout: base
+---
+<h1>{{site.data.locales[page.locale].page_titles.projects}}</h1>
+
+{% for project in site.data.list_projects %}
+{% if project.name[page.locale] %}<h2>{{ project.name[page.locale] }}</h2>{% endif %}
+<p>
+    {% if project.website %}{{ project.website }}{% endif %}
+    {% if project.photo %}<br />{{ project.photo }}{% endif %}
+    {% if project.description[page.locale] %}<br />{{ project.description[page.locale] }}{% endif %}
+</p>
+{% endfor %}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html class="js">
+<head>
+    {% include head.html %}
+</head>
+<body>
+<div id="wrapper">
+    <header id="header" class="clearfix">
+        {% include header.html %}
+    </header>
+
+
+    <div id="main" class="clearfix">
+        <div id="primary">
+            <section id="content" role="main">
+                {{ content }}
+            <!-- /#main -->
+            </section>
+        </div>
+
+        <aside id="sidebar" role="complementary">
+            {% include sidebar.html %}
+            <!-- /.region -->
+        </aside>
+    </div>
+
+    <footer id="footer-bottom">
+        {% include footer.html %}
+    </footer>
+
+</div>
+
+</body>
+</html>

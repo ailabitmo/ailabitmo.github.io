@@ -1,0 +1,31 @@
+{% assign current = page.url | downcase | replace: 'index.html' ''%}
+{% capture locale %}{{ page.url | truncate: 3, "" | remove: "/" }}{% endcapture %}
+
+{% unless site.authorized_locales contains locale %}
+{% assign locale = site.default_locale %}
+{% endunless %}
+
+<div class="region region-sidebar-first">
+    <!-- /.block -->
+    <div id="block-block-7" class="block block-block">
+
+        <h2>Twitter will be here…</h2>
+
+    </div>
+    <!-- /.block -->
+
+
+    {% if site.posts | where: 'lang', locale %} <!-- TOOD: 'If' not working -->
+    <div id="block-block-18" class="block block-block">
+        <h2>Latest posts</h2>
+        <div class="content">
+            <ul>
+            {% for post in site.posts | where: "lang", locale %}
+                <li><a href="{{post.url}}">{{post.title}}</a></li>
+            {% endfor %}
+            </ul>
+        </div>
+    </div>
+    {% endif %}
+
+</div>

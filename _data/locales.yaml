@@ -1,0 +1,81 @@
+nav_length: 4
+en:
+  nav:
+    - ['/en/', 'Home']
+    - ['/en/team/', 'Team']
+    - ['/en/projects/', 'Projects']
+    - ['/en/partners/', 'Partners']
+    - ['/en/blog/', 'Blog']
+    - ['/en/about/', 'About']
+#    '/en/':
+#      text: 'Home'
+#      class: 'nav-home'
+#    '/en/team/':
+#      text: 'Team'
+#      class: 'nav-team'
+#    '/en/projects/':
+#      text: 'Projects'
+#      class: 'nav-projects'
+#    '/en/about/':
+#      text: 'About'
+#      class: 'nav-about'
+  switch_lang_url: "/ru/"
+  switch_lang_message: "Русский"
+  read_more: 'Read more'
+  latest_posts: "Latest news"
+  page_titles:
+    home: 'Main page'
+    team: 'Team'
+    projects: 'Projects'
+    partners: 'Partners and colleagues'
+    blog: 'Blog'
+    about: 'About'
+  about_lab: >
+    Лаборатория Information Science and Semantic Technologies (ISST) является
+    одной из самых передовых в России научных команд, занимающихся исследованиями
+    в области онтологического инжиниринга и семантических технологий, а также разработкой
+    прикладных решений, построенных на основе использования баз знаний. Лаборатория использует
+    передовые форматы и стандарты Semantic Web (семантическая паутина) мирового консорциума W3C.
+    Важной составляющей деятельности лаборатории является организация международных семинаров,
+    школ и конференций по семантическим технологиям.
+ru:
+  nav:
+    - ['/ru/', 'Главная']
+    - ['/ru/team/', 'Команда']
+    - ['/ru/projects/', 'Проекты']
+    - ['/ru/partners/', 'Партнеры']
+    - ['/ru/blog/', 'Блог']
+    - ['/ru/about/', 'О лаборатории']
+#    '/':
+#      text: 'Главная'
+#      class: 'nav-home'
+#    '/team/':
+#      text: 'Команда'
+#      class: 'nav-team'
+#    '/projects/':
+#      text: 'Проекты'
+#      class: 'nav-projects'
+#    '/about/':
+#      text: 'О лаборатории'
+#      class: 'nav-about'
+  switch_lang_url: "/en/"
+  switch_lang_message: "English"
+  read_more: "Читать полностью"
+  latest_posts: "Последние новости"
+  page_titles:
+    home: 'Главная страница'
+    team: 'Сотрудники лаборатории'
+    projects: 'Проекты лаборатории'
+    partners: 'Партнеры и коллеги'
+    blog: 'Блог'
+    about: 'О лаборатории'
+  about_lab: >
+    Лаборатория Information Science and Semantic Technologies (ISST) является
+    одной из самых передовых в России научных команд, занимающихся исследованиями
+    в области онтологического инжиниринга и семантических технологий, а также разработкой
+    прикладных решений, построенных на основе использования баз знаний. Лаборатория использует
+    передовые форматы и стандарты Semantic Web (семантическая паутина) мирового консорциума W3C.
+    Важной составляющей деятельности лаборатории является организация международных семинаров,
+    школ и конференций по семантическим технологиям.
+
+
