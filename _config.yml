@@ -1,3 +1,4 @@
 authorized_locales: ['en', 'ru']
 default_locale: ru
 permalink: pretty
+exclude: [_site, dockerfile]
