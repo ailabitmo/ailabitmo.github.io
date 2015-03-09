@@ -6,10 +6,14 @@
     {% assign locale = site.default_locale %}
 {% endunless %}
 
-<div id="site-logo"><a href="http://impact-theme.techsaran.com/" title="Home">
-    <img src="/assets/logo.png" alt="Home"/>
-</a><a href="{{ site.data.locales[locale].switch_lang_url }}{{ current_noloc }}" class="switch-locale">
-    <span>{{ site.data.locales[locale].switch_lang_message }}</span></a></div>
+<div id="site-logo">
+  <a href="{{ site.url }}" title="Home">
+    <img src="{{ site.url }}/assets/logo.png" alt="Home"/>
+  </a>
+  <a href="{{ site.data.locales[locale].switch_lang_url }}{{ current_noloc }}" class="switch-locale">
+    <span>{{ site.data.locales[locale].switch_lang_message }}</span>
+  </a>
+</div>
 
 <div class="social-profile">
     <ul>
@@ -48,4 +52,3 @@
     </div>
 
 </nav>
-    
