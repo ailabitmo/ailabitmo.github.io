@@ -3,6 +3,7 @@
 
 .lang-flag-block {
   text-align: center;
+  padding-bottom: 1em !important;
 
   .lang-flag {
     height: 25px;
@@ -36,6 +37,7 @@ article.node-article {
   }
 }
 
+// Extends `.socila-profile ul li` from style.css
 .social-profile ul li {
   &.slideshare a {
     background: url('/assets/slideshare.png') no-repeat transparent;
