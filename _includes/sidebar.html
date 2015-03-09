@@ -11,18 +11,30 @@
       <a class="lang-flag en" href="{{ site.url }}/en/">English</a>
   </div>
 
-  <!-- /.block -->
-  <div id="block-block-7" class="block block-block">
-
-      <h2>Twitter will be here…</h2>
-
-  </div>
-  <!-- /.block -->
+  <!-- /.block
+  <div id="block-block-7" class="block block-block">-->
+    <a class="twitter-timeline" href="https://twitter.com/ailabitmo"
+        data-widget-id="574965411114053632"
+        height="400px">Tweets by @ailabitmo
+      </a>
+    <script>
+      !function(d,s,id){
+        var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+        if(!d.getElementById(id)){
+          js=d.createElement(s);
+          js.id=id;
+          js.src=p+"://platform.twitter.com/widgets.js";
+          fjs.parentNode.insertBefore(js,fjs);
+        }
+      }(document,"script","twitter-wjs");
+    </script>
+  <!--</div>
+  /.block -->
 
 
   {% if site.posts | where: 'lang', locale %} <!-- TOOD: 'If' not working -->
   <div id="block-block-18" class="block block-block">
-      <h2>Latest posts</h2>
+      <h2>{{ site.data.locales[page.locale].latest_posts }}</h2>
       <div class="content">
           <ul>
           {% for post in site.posts | where: "lang", locale %}
