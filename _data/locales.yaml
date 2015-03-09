@@ -1,4 +1,3 @@
-nav_length: 4
 en:
   nav:
     - ['/en/', 'Home']
@@ -7,18 +6,6 @@ en:
     - ['/en/partners/', 'Partners']
     - ['/en/blog/', 'Blog']
     - ['/en/about/', 'About']
-#    '/en/':
-#      text: 'Home'
-#      class: 'nav-home'
-#    '/en/team/':
-#      text: 'Team'
-#      class: 'nav-team'
-#    '/en/projects/':
-#      text: 'Projects'
-#      class: 'nav-projects'
-#    '/en/about/':
-#      text: 'About'
-#      class: 'nav-about'
   title: "Laboratory of Information Science and Semantic Technologies @ ITMO University"
   switch_lang_url: "/ru/"
   switch_lang_message: "Русский"
@@ -47,18 +34,6 @@ ru:
     - ['/ru/partners/', 'Партнеры']
     - ['/ru/blog/', 'Блог']
     - ['/ru/about/', 'О лаборатории']
-#    '/':
-#      text: 'Главная'
-#      class: 'nav-home'
-#    '/team/':
-#      text: 'Команда'
-#      class: 'nav-team'
-#    '/projects/':
-#      text: 'Проекты'
-#      class: 'nav-projects'
-#    '/about/':
-#      text: 'О лаборатории'
-#      class: 'nav-about'
   switch_lang_url: "/en/"
   switch_lang_message: "English"
   title: "Международная лаборатория \"Интеллектуальные методы обработки информации и семантические технологии\" (ISST), Университет ИТМО"
