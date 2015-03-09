@@ -1,7 +1,10 @@
 ---
 layout: base
+title:
+  en: Blog
+  ru: Блог
 ---
-<h1 class="page-title">{{site.data.locales[page.locale].page_titles.blog}}</h1>
+<h1 class="page-title">{{ page.title[page.locale] }}</h1>
 
 <div class="content">
     {% for post in site.posts | where: "lang", locale %}
@@ -15,7 +18,7 @@ layout: base
         <footer>
           <ul class="links inline">
             <li class="node-readmore first">
-              <a href="{{ post.url }}">Read more</a>
+              <a href="{{ post.url }}">{{ site.data.locales.read_more[page.locale] }}</a>
             </li>
           </ul>
         </footer>

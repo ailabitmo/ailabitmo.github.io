@@ -1,56 +1,9 @@
-en:
-  nav:
-    - ['/en/', 'Home']
-    - ['/en/team/', 'Team']
-    - ['/en/projects/', 'Projects']
-    - ['/en/partners/', 'Partners']
-    - ['/en/blog/', 'Blog']
-    - ['/en/about/', 'About']
-  title: "Laboratory of Information Science and Semantic Technologies @ ITMO University"
-  switch_lang_url: "/ru/"
-  switch_lang_message: "Русский"
-  read_more: 'Read more'
-  latest_posts: "Latest news"
-  page_titles:
-    home: 'Main page'
-    team: 'Team'
-    projects: 'Projects'
-    partners: 'Partners and colleagues'
-    blog: 'Blog'
-    about: 'About'
-  about_lab: >
-    Лаборатория Information Science and Semantic Technologies (ISST) является
-    одной из самых передовых в России научных команд, занимающихся исследованиями
-    в области онтологического инжиниринга и семантических технологий, а также разработкой
-    прикладных решений, построенных на основе использования баз знаний. Лаборатория использует
-    передовые форматы и стандарты Semantic Web (семантическая паутина) мирового консорциума W3C.
-    Важной составляющей деятельности лаборатории является организация международных семинаров,
-    школ и конференций по семантическим технологиям.
-ru:
-  nav:
-    - ['/ru/', 'Главная']
-    - ['/ru/team/', 'Команда']
-    - ['/ru/projects/', 'Проекты']
-    - ['/ru/partners/', 'Партнеры']
-    - ['/ru/blog/', 'Блог']
-    - ['/ru/about/', 'О лаборатории']
-  switch_lang_url: "/en/"
-  switch_lang_message: "English"
-  title: "Международная лаборатория \"Интеллектуальные методы обработки информации и семантические технологии\" (ISST), Университет ИТМО"
-  read_more: "Читать полностью"
-  latest_posts: "Последние новости"
-  page_titles:
-    home: 'Главная страница'
-    team: 'Сотрудники лаборатории'
-    projects: 'Проекты лаборатории'
-    partners: 'Партнеры и коллеги'
-    blog: 'Блог'
-    about: 'О лаборатории'
-  about_lab: >
-    Лаборатория Information Science and Semantic Technologies (ISST) является
-    одной из самых передовых в России научных команд, занимающихся исследованиями
-    в области онтологического инжиниринга и семантических технологий, а также разработкой
-    прикладных решений, построенных на основе использования баз знаний. Лаборатория использует
-    передовые форматы и стандарты Semantic Web (семантическая паутина) мирового консорциума W3C.
-    Важной составляющей деятельности лаборатории является организация международных семинаров,
-    школ и конференций по семантическим технологиям.
+title:
+  en: "Laboratory of Information Science and Semantic Technologies @ ITMO University"
+  ru: "Международная лаборатория \"Интеллектуальные методы обработки информации и семантические технологии\" (ISST), Университет ИТМО"
+read_more:
+  en: "Read more"
+  ru: "Читать полностью"
+latest_posts:
+  en: "Latest news"
+  ru: "Последние новости"

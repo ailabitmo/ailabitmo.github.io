@@ -1,7 +1,10 @@
 ---
 layout: base
+title:
+  en: Projects
+  ru: Проекты
 ---
-<h1 class="page-title">{{site.data.locales[page.locale].page_titles.projects}}</h1>
+<h1 class="page-title">{{ page.title[page.locale] }}</h1>
 
 {% for project in site.data.list_projects %}
 {% if project.name[page.locale] %}<h2>{{ project.name[page.locale] }}</h2>{% endif %}

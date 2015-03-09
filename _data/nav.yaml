@@ -1,0 +1,14 @@
+en:
+    - ['/en/', 'Home']
+    - ['/en/team/', 'Team']
+    - ['/en/projects/', 'Projects']
+    - ['/en/partners/', 'Partners']
+    - ['/en/blog/', 'Blog']
+    - ['/en/about/', 'About']
+ru:
+    - ['/ru/', 'Главная']
+    - ['/ru/team/', 'Команда']
+    - ['/ru/projects/', 'Проекты']
+    - ['/ru/partners/', 'Партнеры']
+    - ['/ru/blog/', 'Блог']
+    - ['/ru/about/', 'О лаборатории']

@@ -33,7 +33,7 @@
 <nav id="navigation" role="navigation">
     <div id="main-menu">
         <ul class="menu">
-          {% for item in site.data.locales[page.locale].nav %}
+          {% for item in site.data.nav[page.locale] %}
             <li class="leaf {{ item_class }}">
               <a href="{{ item[0] }}"
                 {% if item[0] == current %}class="active"{% endif %}
