@@ -1,6 +1,8 @@
 {% assign current = page.url | downcase | replace: 'index.html' ''%}
 {% assign current_noloc = current | replace: "/en/", "" | replace: "/ru/", "" %}
-{% capture locale %}{{ page.url | truncate: 3, "" | remove: "/" }}{% endcapture %}
+{% capture locale %}
+  {{ page.url | truncate: 3, "" | remove: "/" }}
+{% endcapture %}
 
 {% unless site.authorized_locales contains locale %}
     {% assign locale = site.default_locale %}
@@ -39,20 +41,14 @@
 <nav id="navigation" role="navigation">
     <div id="main-menu">
         <ul class="menu l_tinynavNaN">
-            {% assign class = "first" %}
-            {% assign last_index = site.data.locales.nav_length | minus: 1 %}
-            {% assign i = 0 %}
-
-            {% for menu_item in site.data.locales[locale].nav %}
-                <li class="leaf {{class}}"><a {% if menu_item[0] == current %}class="active"{% endif %}
-                                              href="{{menu_item[0]}}">{{menu_item[1]}}</a></li>
-                {% assign i = i | plus: 1 %}
-                {% if i == last_index %}
-                    {% assign class = 'last' %}
-                {% else %}
-                    {% assign class = '' %}
-                {% endif %}
-            {% endfor %}
+          {% for item in site.data.locales[page.locale].nav %}
+            <li class="leaf {{ item_class }}">
+              <a href="{{ item[0] }}"
+                {% if item[0] == current %}class="active"{% endif %}
+              >
+              {{ item[1] }}</a>
+            </li>
+          {% endfor %}
         </ul>
     </div>
 
