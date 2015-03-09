@@ -9,7 +9,7 @@ RUN ln -s /usr/bin/nodejs /usr/bin/node
 
 RUN npm install -g forever
 
-RUN gem install jekyll rdiscount json
+RUN gem install jekyll rdiscount json RedCloth
 RUN apt-get install -y nginx
 
 RUN git clone https://github.com/developmentseed/jekyll-hook.git
