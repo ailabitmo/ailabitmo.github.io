@@ -1,12 +1,4 @@
 {% assign current = page.url | downcase | replace: 'index.html' ''%}
-{% assign current_noloc = current | replace: "/en/", "" | replace: "/ru/", "" %}
-{% capture locale %}
-  {{ page.url | truncate: 3, "" | remove: "/" }}
-{% endcapture %}
-
-{% unless site.authorized_locales contains locale %}
-    {% assign locale = site.default_locale %}
-{% endunless %}
 
 <div id="site-logo">
   <a href="{{ site.url }}" title="Home">
@@ -40,7 +32,7 @@
 </div>
 <nav id="navigation" role="navigation">
     <div id="main-menu">
-        <ul class="menu l_tinynavNaN">
+        <ul class="menu">
           {% for item in site.data.locales[page.locale].nav %}
             <li class="leaf {{ item_class }}">
               <a href="{{ item[0] }}"
