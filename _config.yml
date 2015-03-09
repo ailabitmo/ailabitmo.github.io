@@ -6,3 +6,5 @@ exclude: [_site, dockerfile]
 
 sass:
     style: compressed
+
+gems: [RedCloth]
