@@ -4,7 +4,4 @@ default_locale: ru
 permalink: pretty
 exclude: [_site, dockerfile]
 
-sass:
-    style: compressed
-
 gems: [RedCloth]
