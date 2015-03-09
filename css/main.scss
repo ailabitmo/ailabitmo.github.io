@@ -26,3 +26,12 @@
     }
   }
 }
+
+article.node-article {
+  .content p {
+    text-align: justify;
+  }
+  header .title {
+    text-align: justify;
+  }
+}
