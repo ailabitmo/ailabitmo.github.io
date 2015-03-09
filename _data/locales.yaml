@@ -7,3 +7,6 @@ read_more:
 latest_posts:
   en: "Latest news"
   ru: "Последние новости"
+posted_on:
+  en: Posted on
+  ru: Опубликовано
