@@ -7,22 +7,25 @@ title:
 <h1 class="page-title">{{ page.title[page.locale] }}</h1>
 
 <div class="content">
-    {% for post in site.posts | where: "locale", locale %}
-      <article class="node node-article node-promoted node-teaser clearfix">
-        <header>
-          <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-          <span class="submitted">{{ site.data.locales.posted_on[page.locale] }} {{ post.date | date_to_long_string }}</span>
-        </header>
-        <div class="content">
-          {{ post.excerpt }}
-        </div>
-        <footer>
-          <ul class="links inline">
-            <li class="node-readmore first">
-              <a href="{{ post.url }}">{{ site.data.locales.read_more[page.locale] }}</a>
-            </li>
-          </ul>
-        </footer>
-      </article>
-    {% endfor %}
+  {% for post in site.posts | where: "locale", locale %}
+    <article class="node node-article node-promoted
+    {% if forloop.last == false %} node-teaser {% endif %}
+    clearfix">
+      <header>
+        <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <span class="submitted">{{ site.data.locales.posted_on[page.locale] }} {{ post.date | date_to_long_string }}</span>
+      </header>
+      <div class="content">
+        {{ post.excerpt }}
+      </div>
+      <footer>
+        <ul class="links inline">
+          <li class="node-readmore">
+            <a href="{{ post.url }}">{{ site.data.locales.read_more[page.locale] }}</a>
+          </li>
+        </ul>
+      </footer>
+    </article>
+  {% endfor %}
+  </br>
 </div>
