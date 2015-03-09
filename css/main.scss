@@ -36,12 +36,19 @@ article.node-article {
   }
 }
 
-.social-profile ul li
+.social-profile ul li {
   &.slideshare a {
     background: url('/assets/slideshare.png') no-repeat transparent;
 
     &:hover {
       background-color:rgb(5,121,182);
+    }
+  }
+  &.github a {
+    background: url('/assets/github.png') no-repeat transparent;
+
+    &:hover {
+      background-color:rgb(245,245,245);
     }
   }
 }
