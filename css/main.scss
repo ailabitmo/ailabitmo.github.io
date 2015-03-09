@@ -35,3 +35,13 @@ article.node-article {
     text-align: justify;
   }
 }
+
+.social-profile ul li
+  &.slideshare a {
+    background: url('/assets/slideshare.png') no-repeat transparent;
+
+    &:hover {
+      background-color:rgb(5,121,182);
+    }
+  }
+}
