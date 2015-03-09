@@ -6,13 +6,19 @@ title:
 ---
 <h1 class="page-title">{{ page.title[page.locale] }}</h1>
 
+<div>
+  <ul class="person-list">
 {% for person in site.data.list_team %}
-    {% if person.name[page.locale] %}<h4>{{ person.name[page.locale] }}</h4>{% endif %}
-    <p>
-        {% if person.position[page.locale] %}{{ person.position[page.locale] }}{% endif %}
-        {% if person.degree[page.locale] %}<br />{{ person.degree[page.locale] }}{% endif %}
-        {% if person.workplace[page.locale] %}<br />{{ person.workplace[page.locale] }}{% endif %}
-        {% if person.email %}<br />{{ person.email }}{% endif %}
-        {% if person.photo %}<br />{{ person.photo }}{% endif %}
-    </p>
+    <li class="person">
+        <img
+        {%if person.photo %} src="{{ person.photo}}"
+        {% else %}
+          src="/assets/people/defaultIcon.png"
+        {% endif %}
+        />
+        <span>{{ person.name[page.locale] }}</span>
+        <a href="/{{ page.locale }}/{{ person.details_url }}">Contact details</a>
+    </li>
 {% endfor %}
+  </ul>
+</div>

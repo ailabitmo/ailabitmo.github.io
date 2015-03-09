@@ -52,3 +52,36 @@ article.node-article {
 .content.p-justify {
   text-align: justify;
 }
+
+.person-list {
+  display: block;
+  margin: 2em 0;
+
+  li.person {
+    display: inline-block;
+    width: 30%;
+    min-width: 13em;
+    padding: 0.4em 0.4em 0 0.4em;
+    margin: 0.1em 0 0.1em 0.1em;
+    border: 1px #E0E0E0 solid;
+    list-style-type: none;
+    text-align: right;
+
+    img {
+      display: inline-block;
+      float: left;
+      width: 5em;
+    }
+    span {vertical-align: top; }
+    a {
+      display: inline-block;
+      width: 100%;
+      text-decoration: underline;
+    }
+  }
+}
+
+.twitter-timeline {
+  display: block;
+  width: 100% !important;
+}

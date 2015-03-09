@@ -1,33 +1,88 @@
-########################################
 -
   name:
     en: Peter Haase
-    ru: Peter Haase
+    ru: Петер Хаазе
   position:
     en: Head of the laboratory
-    ru: Руководитель лаборатории
+    ru: Со-руководитель лаборатории
   degree:
-    en: Ph.D. (Technical)
-    ru: Ph.D. (Technical)
+    en: Ph.D.
+    ru: Ph.D.
   workplace:
     en: metaphacts GmbH, CEO
     ru: metaphacts GmbH, CEO
   email: peter.haase@fluidops.com
-  photo: /assets/photo/ph.jpg
-
-########################################
 -
   name:
       en: Dmitry Mouromtsev
       ru: Дмитрий Муромцев
   position:
       en: Head of the laboratory
-      ru: Руководитель лаборатории
+      ru: Со-руководитель лаборатории
   degree:
-      en: Dean, Ph.D. (Technical)
+      en: Dean, Ph.D.
       ru: Доцент, к.т.н.
 #  workplace:
 #      en: ITMO University
 #      ru: Университет ИТМО
   email: mouromtsev@mail.ifmo.ru
-  photo: /assets/photo/dm.jpg
+-
+  name:
+      en: Irina Radchenko
+      ru: Ирина Радченко
+-
+  name:
+      en: Olga Kurash
+      ru: Ольга Кураш
+-
+  name:
+      en: Liubov Kovriguina
+      ru: Любовь Ковригина
+-
+  name:
+      en: Maxim Kolchin
+      ru: Максим Колчин
+-
+  name:
+      en: Olga Parkhimovich
+      ru: Ольга Пархимович
+-
+  name:
+      en: Fedor Kozlov
+      ru: Федор Козлов
+-
+  name:
+      en: Eugene Cherny
+      ru: Евгений Чёрный
+-
+  name:
+      en: Michael Galkin
+      ru: Михаил Галкин
+-
+  name:
+      en: Mikhail Navrotskiy
+      ru: Михаил Навротский
+-
+  name:
+      en: Ilya Semerhanov
+      ru: Илья Семерханов
+-
+  name:
+      en: Sergey Balandin
+      ru: Сергей Баландин
+-
+  name:
+      en: Dmitriy Pavlov
+      ru: Дмитрий Павлов
+-
+  name:
+      en: Yury Evelianov
+      ru: Юрий Емельянов
+-
+  name:
+      en: Dmitry Zamula
+      ru: Дмитрий Замула
+-
+  name:
+      en: Maksim Lapaev
+      ru: Максим Лапаев
