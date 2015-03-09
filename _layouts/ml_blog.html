@@ -11,6 +11,7 @@ title:
       <article class="node node-article node-promoted node-teaser clearfix">
         <header>
           <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          <span class="submitted">{{ site.data.locales.posted_on[page.locale] }} {{ post.date | date_to_long_string }}</span>
         </header>
         <div class="content">
           {{ post.excerpt }}
