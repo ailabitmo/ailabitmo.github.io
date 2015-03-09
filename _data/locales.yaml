@@ -19,6 +19,7 @@ en:
 #    '/en/about/':
 #      text: 'About'
 #      class: 'nav-about'
+  title: "Laboratory of Information Science and Semantic Technologies @ ITMO University"
   switch_lang_url: "/ru/"
   switch_lang_message: "Русский"
   read_more: 'Read more'
@@ -60,6 +61,7 @@ ru:
 #      class: 'nav-about'
   switch_lang_url: "/en/"
   switch_lang_message: "English"
+  title: "Международная лаборатория \"Интеллектуальные методы обработки информации и семантические технологии\" (ISST), Университет ИТМО"
   read_more: "Читать полностью"
   latest_posts: "Последние новости"
   page_titles:
@@ -77,5 +79,3 @@ ru:
     передовые форматы и стандарты Semantic Web (семантическая паутина) мирового консорциума W3C.
     Важной составляющей деятельности лаборатории является организация международных семинаров,
     школ и конференций по семантическим технологиям.
-
-
