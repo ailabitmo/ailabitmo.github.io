@@ -1,0 +1,28 @@
+---
+---
+
+.lang-flag-block {
+  text-align: center;
+
+  .lang-flag {
+    height: 25px;
+    line-height: 25px;
+    vertical-align: middle;
+    padding: 5px 5px;
+
+    &::before {
+      content:'\00a0\00a0\00a0\00a0\00a0\00a0\00a0';
+      background-size: 21px 16px;
+      background-repeat: no-repeat;
+      margin: 0px 2px;
+      border: solid 1px #726F6F;
+    }
+
+    &.ru::before {
+      background-image: url('/assets/ru.svg');
+    }
+    &.en::before {
+      background-image: url('/assets/gb.svg');
+    }
+  }
+}
