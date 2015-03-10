@@ -3,12 +3,18 @@ layout: base
 title:
   en: Team
   ru: Сотрудники
+former_staff:
+  en: Former staff
+  ru: Бывшие сотрудники
+contacts:
+  en: Contacts details
+  ru: Контакты
 ---
 <h1 class="page-title">{{ page.title[page.locale] }}</h1>
 
 <div>
   <ul class="person-list">
-{% for person in site.data.list_team %}
+{% for person in site.data.list_team %}{% if person.former != true %}
     <li class="person">
         <img
         {%if person.photo %} src="{{ person.photo}}"
@@ -17,8 +23,15 @@ title:
         {% endif %}
         />
         <span>{{ person.name[page.locale] }}</span>
-        <a href="/{{ page.locale }}/{{ person.details_url }}">Contact details</a>
+        <a href="/{{ page.locale }}/{{ person.details_url }}">{{ page.contacts[page.locale] }}</a>
     </li>
-{% endfor %}
+{% endif %}{% endfor %}
   </ul>
 </div>
+<h2>{{ page.former_staff[page.locale] }}</h2>
+<div>
+{% for person in site.data.list_team %}{% if person.former == true %}
+  {{ person.name[page.locale] }}{% if forloop.last == false%},{% endif %}
+{% endif %}{% endfor %}
+</div>
+</br>

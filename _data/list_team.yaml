@@ -12,6 +12,7 @@
     en: metaphacts GmbH, CEO
     ru: metaphacts GmbH, CEO
   email: peter.haase@fluidops.com
+  photo: /assets/people/peter.haase.jpg
 -
   name:
       en: Dmitry Mouromtsev
@@ -30,6 +31,7 @@
   name:
       en: Irina Radchenko
       ru: Ирина Радченко
+  photo: /assets/people/irina.radchenko.jpeg
 -
   name:
       en: Olga Kurash
@@ -42,18 +44,21 @@
   name:
       en: Maxim Kolchin
       ru: Максим Колчин
+  photo: /assets/people/maxim.kolchin.jpeg
 -
   name:
       en: Olga Parkhimovich
       ru: Ольга Пархимович
+  photo: /assets/people/olga.parkhimovich.jpeg
 -
   name:
       en: Fedor Kozlov
       ru: Федор Козлов
 -
   name:
-      en: Eugene Cherny
-      ru: Евгений Чёрный
+    en: Eugene Cherny
+    ru: Евгений Чёрный
+  photo: /assets/people/eugene.cherny.jpeg
 -
   name:
       en: Michael Galkin
@@ -62,6 +67,7 @@
   name:
       en: Mikhail Navrotskiy
       ru: Михаил Навротский
+  photo: /assets/people/mikhail.navrotskiy.jpeg
 -
   name:
       en: Ilya Semerhanov
@@ -82,7 +88,23 @@
   name:
       en: Dmitry Zamula
       ru: Дмитрий Замула
+  photo: /assets/people/dmitry.zamula.jpeg
 -
   name:
       en: Maksim Lapaev
       ru: Максим Лапаев
+################################################################################
+# Former staff
+################################################################################
+- name:
+    en: Yury Katkov
+    ru: Юрий Катков
+  former: true
+- name:
+    en: Irina Pochinok
+    ru: Ирина Починок
+  former: true
+- name:
+    en: Alexey Zlobin
+    ru: Алексей Злобин
+  former: true
