@@ -1,4 +1,5 @@
 {% assign current = page.url | downcase | replace: 'index.html' ''%}
+{% assign current_noloc = current | replace: "/en/", "" | replace: "/ru/", "" %}
 {% capture locale %}{{ page.url | truncate: 3, "" | remove: "/" }}{% endcapture %}
 
 {% unless site.authorized_locales contains locale %}
@@ -7,8 +8,8 @@
 
 <div class="region region-sidebar-first">
   <div class="block block-block lang-flag-block">
-      <a class="lang-flag ru" href="{{ site.url }}/ru/">Русский</a>
-      <a class="lang-flag en" href="{{ site.url }}/en/">English</a>
+      <a class="lang-flag ru" href="{{ site.url }}/ru/{{current_noloc}}">Русский</a>
+      <a class="lang-flag en" href="{{ site.url }}/en/{{current_noloc}}">English</a>
   </div>
 
   <!-- Twitter Timeline -->
