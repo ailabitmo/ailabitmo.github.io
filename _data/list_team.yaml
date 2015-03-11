@@ -17,6 +17,7 @@
   name:
       en: Dmitry Mouromtsev
       ru: Дмитрий Муромцев
+  photo: /assets/people/dmitry.mouromtsev.jpg
   position:
       en: Head of the laboratory
       ru: Со-руководитель лаборатории
@@ -36,10 +37,12 @@
   name:
       en: Olga Kurash
       ru: Ольга Кураш
+  photo: /assets/people/olga.kurash.png
 -
   name:
       en: Liubov Kovriguina
       ru: Любовь Ковригина
+  photo: /assets/people/liubov.kovriguina.jpg
 -
   name:
       en: Maxim Kolchin
@@ -54,6 +57,7 @@
   name:
       en: Fedor Kozlov
       ru: Федор Козлов
+  photo: /assets/people/fedor.kozlov.jpg
 -
   name:
     en: Eugene Cherny
@@ -63,6 +67,7 @@
   name:
       en: Michael Galkin
       ru: Михаил Галкин
+  photo: /assets/people/michael.galkin.jpg
 -
   name:
       en: Mikhail Navrotskiy
@@ -72,18 +77,27 @@
   name:
       en: Ilya Semerhanov
       ru: Илья Семерханов
+  photo: /assets/people/ilya.semerhanov.jpg
 -
   name:
       en: Sergey Balandin
       ru: Сергей Баландин
+  photo: /assets/people/sergey.balandin.jpg
 -
   name:
-      en: Dmitriy Pavlov
-      ru: Дмитрий Павлов
+    en: Dmitriy Pavlov
+    ru: Дмитрий Павлов
+  photo: /assets/people/dmitry.pavlov.jpg
 -
   name:
-      en: Yury Evelianov
+      en: Yury Emelyanov
       ru: Юрий Емельянов
+  photo: /assets/people/yury.emelyanov.jpg
+-
+  name:
+    en: Sergey Popov
+    ru: Сергей Попов
+  photo: /assets/people/sergey.popov.png
 -
   name:
       en: Dmitry Zamula
@@ -107,4 +121,19 @@
 - name:
     en: Alexey Zlobin
     ru: Алексей Злобин
+  former: true
+-
+  name:
+    en: Pavel Smirnov
+    ru: Павел Смирнов
+  former: true
+-
+  name:
+    en: German Vargin
+    ru: Герман Варгин
+  former: true
+-
+  name:
+    en: Ivan Mamontov
+    ru: Иван Мамонтов
   former: true
