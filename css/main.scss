@@ -49,7 +49,7 @@ article.node-article {
   }
 }
 
-.content.p-justify {
+.p-justify {
   text-align: justify;
 }
 
@@ -84,4 +84,31 @@ article.node-article {
 .twitter-timeline {
   display: block;
   width: 100% !important;
+}
+
+.project-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: inline-block;
+
+    a {
+      color:white;
+      background:rgb(0,103,151);
+      border-width:1px;
+      border-style:none;
+      border-color:white;
+      font-weight:normal;
+      text-decoration:none;
+      line-height:1.538;
+      padding:.4em;
+      margin:.385em .385em 0 0;
+      border-radius:.154em / .462em;
+      cursor:pointer;
+
+      &:hover { background:#169FE6; }
+    }
+  }
 }

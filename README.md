@@ -1,3 +1,5 @@
-## Запуск сервера при разработке
+# Homepage of Laboratory ISST
 
-`jekyll serve --config _config.development.yml`
+## How to deploy (locally)
+
+`jekyll serve --config _config.yml,_config.development.yml`

@@ -1,8 +1,12 @@
 ################################################################################
 -
-  name:
-      en: SemIoT (Semantic tecnologies for Internet of Things)
-      ru: SemIoT (Semantic tecnologies for Internet of Things)
+  id: semiot
+  title:
+    en: SemIoT
+    ru: SemIoT
+  subtitle:
+    en: Semantic tecnologies for Internet of Things
+    ru: Semantic tecnologies for Internet of Things
   website: 'http://semiot.ru/'
   description:
       en: >
@@ -18,10 +22,10 @@
         in priority areas of scientific and technological complex of Russia for 2014-2020”.
       ru: >
         SemIoT (Semantic tecnologies for Internet of Things) -
-        научно-исследовательский проект лаборатории ISST,
-        выполняемый в рамках гранта по Федеральной целевой программе
-        «Исследования и разработки по приоритетным направлениям развития
-        научно-технологического комплекса России на 2014—2020 годы».
+        научно-исследовательский проект выполняемый в рамках гранта
+        по Федеральной целевой программе «Исследования и разработки
+        по приоритетным направлениям развития научно-технологического
+        комплекса России на 2014—2020 годы».
 
         Тема гранта: "Разработка прототипа масштабируемой
         сервис-ориентированной программно-аппаратной платформы на основе
@@ -34,9 +38,13 @@
 
 ################################################################################
 -
-  name:
-      en: OntoDia — Сервис создания диаграмм на основе онтологических данных
-      ru: OntoDia — Сервис создания диаграмм на основе онтологических данных
+  id: ontodia
+  title:
+    en: OntoDia
+    ru: OntoDia
+  subtitle:
+    en: Сервис создания диаграмм на основе онтологических данных
+    ru: Сервис создания диаграмм на основе онтологических данных
   website: 'http://ontodia.org/'
   description:
       en: >
@@ -56,3 +64,14 @@
         Диаграммы позволяют пользователю делиться теми знаниями, которые находятся
         в его базе знаний и обсуждать их на концептуальном уровне.
   photo: /assets/project/ontodia.jpg
+
+-
+  id: foodpedia
+  url: '/projects/FOODpedia/'
+  title:
+    en: FOODpedia
+    ru: FOODpedia
+  subtitle:
+    en: Food products and ingredients as a LOD dataset
+    ru: LOD база данных о продуктах питания и их ингредиентов
+  website: 'http://foodpedia.tk'

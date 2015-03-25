@@ -4,4 +4,6 @@ default_locale: ru
 permalink: pretty
 exclude: [_site, dockerfile]
 
-gems: [RedCloth]
+gems:
+  - RedCloth
+  - jekyll-textile-converter

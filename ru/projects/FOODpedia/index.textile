@@ -1,0 +1,17 @@
+---
+layout: base
+locale: ru
+---
+
+h1(page-title). FOODpedia
+
+</br>
+
+p<>. FOODpedia - это попытка извлечь структурированную информацию с каталога о продуктах питания GoodsMatrix и предоставить к ней доступ по средствам сети Веб. Также FOODpedia позволяет выполнять сложные запросы к данной информации и связывать другие базы связанных данных с ней.
+
+<ol class="project-links">
+    <li>"Веб сайт":http://foodpedia.tk</li>
+    <li>"Github":https://github.com/ailabitmo/foodpedia</li>
+</ol>
+
+</br>

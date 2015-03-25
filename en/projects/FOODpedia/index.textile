@@ -1,0 +1,17 @@
+---
+layout: base
+locale: en
+---
+
+h1(page-title). FOODpedia
+
+</br>
+
+p<>. FOODpedia is a community effort to extract structured information from GoodsMatrix and make this information available on the Web. FOODpedia allows you to ask sophisticated queries against and to link other datasets on the Web to dataset.
+
+<ol class="project-links">
+    <li>"Homepage":http://foodpedia.tk</li>
+    <li>"Github":https://github.com/ailabitmo/foodpedia</li>
+</ol>
+
+</br>
