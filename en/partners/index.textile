@@ -1,0 +1,39 @@
+---
+layout: base
+locale: en
+---
+
+h1(page-title). Partners and colleques
+
+h2. "Agile Knowledge Engineering and Semantic Web (AKSW)":http://aksw.org
+
+p<>. The Research Group AKSW is hosted by the Chair of Business Information Systems of Leipzig University as well as Institute for Applied Informatics. Research areas:
+
+* Development of methods, tools and applications for adaptive Knowledge Engineering in the context of the Semantic Web
+* Research of underlying Semantic Web technologies and development of fundamental Semantic Web tools and applications
+* Maturation of strategies for fruitfully combining the Social Web paradigms with semantic knowledge representation techniques
+
+We are partner in the following projects:
+
+* "LODIFMO":{{ site.url }}/en/projects/LODIFMO - Linked Open Data of ITMO university
+
+h2. "Linked Data Lab":http://ldlab.ifs.tuwien.ac.at @ Vienna University of Technology
+
+p<>. The Vienna University of Technology's Linked Data Lab conducts research in Open and Linked Data, including:
+
+* Semantic integration of Open Government Data
+* Data-driven decision making for urban-scale problems
+* Semantic Sensor Networks and data stream processing
+* Semantic modeling of environmental data
+
+We are partner in the following projects:
+
+* "YABench":{{ site.url }}/en/projects/YABench - Yet Another RDF Stream Processing Benchmark
+
+h2. "ZAO 'Marine Computer Systems'":http://www.mcs.ru
+
+p<>. ZAO “MCS” is a scientific and production enterprise performing the development, delivery and maintenance of software products that support the computerization and automation of enterprises and organizations belonging to the industry of Maritime and river transport (ports, terminals, shipping companies and others.
+
+We are partner in the following projects:
+
+* "SemIoT":{{ site.url }}/en/projects/SemIoT - Semantic technologies for Internet of Things
