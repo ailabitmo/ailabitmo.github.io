@@ -7,6 +7,8 @@ h1(page-title). Partners and colleques
 
 h2. "Agile Knowledge Engineering and Semantic Web (AKSW)":http://aksw.org
 
+!(partners-logo)/assets/logo/logo-aksw.png!
+
 p<>. The Research Group AKSW is hosted by the Chair of Business Information Systems of Leipzig University as well as Institute for Applied Informatics. Research areas:
 
 * Development of methods, tools and applications for adaptive Knowledge Engineering in the context of the Semantic Web
@@ -17,7 +19,9 @@ We are partner in the following projects:
 
 * "LODIFMO":{{ site.url }}/en/projects/LODIFMO - Linked Open Data of ITMO university
 
-h2. "Linked Data Lab":http://ldlab.ifs.tuwien.ac.at @ Vienna University of Technology
+h2. "Linked Data Lab":http://ldlab.ifs.tuwien.ac.at
+
+!(partners-logo ldl)/assets/logo/ldlab_logo.png!
 
 p<>. The Vienna University of Technology's Linked Data Lab conducts research in Open and Linked Data, including:
 
