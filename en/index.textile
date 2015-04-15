@@ -1,0 +1,20 @@
+---
+layout: base
+locale: en
+---
+
+<div class="content">
+
+p<>. International laboratory "Information Science and Semantic Technologies" (Laboratory ISST) is hosted by the chair of "Informatics and Applied mathematics (IPM-1)":http://ipm.ifmo.ru/ of "ITMO University":http://ifmo.ru.
+
+h2. Research areas
+
+p<>. Laboratory conducts basic and applied research in areas of Semantic Web, Ontology Engineering, Knowledge Engineering, Linked Data, Open Data, Internet of Things, Smart Spaces and others.
+
+h2. Projects
+
+p<>. Laboratory has launched a number of R&D projects funded by "RFBR":http://www.rfbr.ru/rffi/eng, "The Ministry of Education and Science":http://минобрнауки.рф/ and others, and several several community projects. Full list of projects and their description you can find at page "Projects":{{ site.url }}/en/projects.
+
+p<>. Futhermore laboratory organizes an annual international conference <a href="http://kesw.ru/">Knowledge Engineering and Semantic Web (KESW)</a>.
+
+</div>
