@@ -1,4 +1,4 @@
-{% assign current = page.url | downcase | replace: 'index.html' ''%}
+{% capture locale %}{{ page.url | truncate: 3, "" | remove: "/" }}{% endcapture %}
 
 <div id="site-logo">
   <a href="{{ site.url }}" title="Home">
@@ -33,7 +33,7 @@
 <nav id="navigation" role="navigation">
     <div id="main-menu">
         <ul class="menu">
-          {% for item in site.data.nav[page.locale] %}
+          {% for item in site.data.nav[locale] %}
             <li class="leaf {{ item_class }}">
               <a href="{{ item[0] }}"
                 {% if item[0] == current %}class="active"{% endif %}

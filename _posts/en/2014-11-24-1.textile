@@ -2,7 +2,6 @@
 layout: post
 title: SemIoT project grant agreement signed by the Russian Federation and ITMO University
 published: true
-locale: en
 categories: en
 ---
 

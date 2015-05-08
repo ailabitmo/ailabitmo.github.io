@@ -2,7 +2,6 @@
 layout: post
 title: Подписано соглашение о предоставлении субсидий в рамках гранта ФЦП
 published: true
-locale: ru
 categories: ru
 ---
 

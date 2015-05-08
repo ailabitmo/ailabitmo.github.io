@@ -2,7 +2,6 @@
 layout: post
 title: ISST laboratory has joined to the Finnish IoT consortium
 published: true
-locale: en
 categories: en
 ---
 

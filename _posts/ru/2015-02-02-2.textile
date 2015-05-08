@@ -2,7 +2,6 @@
 layout: post
 title: Лаборатория ISST присоединилась к финскому консорциуму "Интернет вещей"
 published: true
-locale: ru
 categories: ru
 ---
 
