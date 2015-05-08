@@ -1,3 +1,4 @@
+{% assign current = page.url | downcase | replace: 'index.html' ''%}
 {% capture locale %}{{ page.url | truncate: 3, "" | remove: "/" }}{% endcapture %}
 
 <div id="site-logo">
