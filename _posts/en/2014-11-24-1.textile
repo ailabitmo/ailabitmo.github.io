@@ -1,0 +1,11 @@
+---
+layout: post
+title: SemIoT project grant agreement signed by the Russian Federation and ITMO University
+published: true
+locale: en
+categories: en
+---
+
+p<>. Ministry of education of the Russian Federation and ITMO university have signed an agreement # 14.575.21.0101 upon subsidies providing from the federal budget to finance the expenses related to the SemIoT project—this is the official start of the project.
+
+Project's team expresses their gratitude to all colleagues from ISST lab for their help with preparing documents for grant application.

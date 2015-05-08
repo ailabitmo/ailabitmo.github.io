@@ -1,0 +1,16 @@
+---
+layout: post
+title: ISST laboratory has joined to the Finnish IoT consortium
+published: true
+locale: en
+categories: en
+---
+
+
+p<>. ISST laboratory of ITMO University joined to the “Internet of Things” program of the Finnish strategical center for science, technologies and innovations DIGILE ("http://www.internetofthings.fi/":http://www.internetofthings.fi/).
+
+!{width: 40em;}http://www.ifmo.ru/images/news/big/p4550.jpg!
+
+p<>. At the moment, the Finnish consortium comprises of a number of large companies, small and medium-sized businesses and research universities, including Intel, Ericsson, Nokia, Softela, FRUCT and others. In the beginning of the year ITMO University has joined them, currently the only representative of Russia in the consortium.
+
+p<>. More details can be found on the university's web site (in Russian): http://www.ifmo.ru/ru/viewnews/4550/universitet_prisoedinilsya_k_finskomu_konsorciumu_internet_veschey.htm

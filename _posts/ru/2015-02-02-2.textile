@@ -3,6 +3,7 @@ layout: post
 title: Лаборатория ISST присоединилась к финскому консорциуму "Интернет вещей"
 published: true
 locale: ru
+categories: ru
 ---
 
 p<>. Лаборатория ISST Университета ИТМО присоединилась к программе «Интернет вещей» (Internet of things, IoT) финского стратегического центра науки, технологий и инноваций DIGILE ("http://www.internetofthings.fi/":http://www.internetofthings.fi/).
