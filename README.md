@@ -2,4 +2,4 @@
 
 ## How to deploy (locally)
 
-`jekyll serve --config _config.yml,_config.development.yml`
+`jekyll serve --config=_config.yml,_config.development.yml`
