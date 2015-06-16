@@ -1,0 +1,17 @@
+---
+layout: post
+title: Ontodia was presented at ESWC 2015
+published: true
+categories: en
+---
+<div><img src="/assets/posts/2015-06-16-3/ontodia.png" width="30%" class="img-center img-padding"/></div>
+
+p<>. For "ESWC 2015":http://2015.eswc-conferences.org/ we launched a new release of Ontodia ("www.ontodia.org":http://ontodia.org) - a web service for semantic data visualization and diagramming. At the conference we took our chance to address the audience with the Minute Madness slide and our outcry for feedback. Here's that slide. Unfortunately, I cannot post the outcry here... 
+
+<div><img src="/assets/posts/2015-06-16-3/One_Minute_Madness_Ontodia_4by3.png" width="80%" class="img-center img-padding"/></div>
+
+p<>. As a result we registered a significant expansion of our user base and, what's even more important, we managed to collect valuable feedback about the service and to hear from people about ways to improve. Eventually, it was the first time Ontodia was shown to a large audience and put under test which, in fact, it stood graciously.
+
+p<>. If you belong to semantic community, I'm sure you'd be intrigued to try out Ontodia and see for yourself how fully it satisfies your everyday needs. We invite you to share your thoughts with us at our "google group":https://groups.google.com/forum/#!forum/ontodia.
+
+p<>. What's next? By September will open the source codes for Ontodia and start building community to develop Ontodia into a full-scale graphical ontology and semantic data authoring tool. Stay tuned!

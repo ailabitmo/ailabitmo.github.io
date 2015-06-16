@@ -86,6 +86,11 @@ article.node-article {
   width: 100% !important;
 }
 
+img {
+ &.img-center {display: block; margin: auto;}
+ &.img-padding {padding: 5px;}
+}
+
 .project-links {
   list-style-type: none;
   margin: 0;
