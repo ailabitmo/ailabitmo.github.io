@@ -1,7 +1,11 @@
 url: http://isst.ifmo.ru
 authorized_locales: ['en', 'ru']
 default_locale: ru
+
+#posts
 permalink: /:categories/blog/:year/:month/:day/
+excerpt_separator: <!--more-->
+
 exclude: [_site, dockerfile]
 
 gems: [RedCloth]
