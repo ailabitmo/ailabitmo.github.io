@@ -1,0 +1,16 @@
+---
+layout: post
+title: Russian Linked Culture Cloud project was presented at ESWC 2015
+published: true
+categories: en
+---
+
+p<>. "Russian Linked Culture Cloud":http://culturecloud.ru project was launched just some 6 months ago and since that time we build a demo site for navigation over the data of Russian Museum and developed a Mobile App for museum goers.
+
+<!--more-->
+
+p<>. The project was presented at "ESWC 2015":http://2015.eswc-conferences.org by the "full paper":http://www.researchgate.net/publication/278022357_Towards_the_Russian_Linked_Culture_Cloud_Data_Enrichment_and_Publishing, which gained recognition from members of the semantic community engaged in cultural heritage.
+
+p<>. One of the major results of the ESWC for our team was the invitation for our lab to participate in international consortium uniting museum, universities and SME's focused on cultural heritage issues. We were invited to join the project that would bring together the sources of semantic data on cultural heritage into one interlinked cloud. 
+
+<div><img src="/assets/posts/2015-06-16-4/One_Minute_Madness_Demo31_4by3.png" class="img-center img-padding" width="90%"/></div>
