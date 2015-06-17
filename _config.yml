@@ -3,7 +3,7 @@ authorized_locales: ['en', 'ru']
 default_locale: ru
 
 #posts
-permalink: /:categories/blog/:year/:month/:day/
+permalink: /:categories/blog/:year/:month/:day/:title
 excerpt_separator: <!--more-->
 
 exclude: [_site, dockerfile]
