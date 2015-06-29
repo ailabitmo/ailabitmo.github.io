@@ -3,7 +3,13 @@
 <link rel="shortcut icon" href="{{ site.url }}/assets/favicon.ico"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
-<title>{{ site.data.locales.title[page.locale] }}</title>
+<title>
+    {%if site.data.locales.title[page.locale] %}
+        {{ site.data.locales.title[page.locale] }}
+    {% else %}
+        {{ page.title }}
+    {% endif %}
+</title>
 
 <link type="text/css" rel="stylesheet" href="{{ site.url }}/css/style3.css" media="all"/>
 <link type="text/css" rel="stylesheet" href="{{ site.url }}/css/style2.css" media="all"/>

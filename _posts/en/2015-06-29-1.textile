@@ -1,0 +1,16 @@
+---
+layout: post
+title: Michael Galkin received a grant from DAAD
+published: true
+categories: en
+---
+
+p<>. Our laboratory member Michael Galkin has received the PhD scholarship of the German Academy Exchange Service (DAAD) for doing his joint PhD studies at the University of Bonn, Germany. 
+
+<!--more-->
+
+p<>. The project proposal covers topics of the implementation of the semantic technologies into integration of business processes and enterprise architecture. The project received positive reviews from the DAAD Committee in Russia and Germany as well as from the Enterprise Information Systems Laboratory at the University of Bonn.
+
+p=. We wish Michael scientific achievements and more publications!
+
+<div><img src="/assets/posts/2015-06-29-1/diploma.png" class="img-center img-padding" width="90%"/></div>
