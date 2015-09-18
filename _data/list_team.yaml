@@ -33,6 +33,7 @@
       en: Irina Radchenko
       ru: Ирина Радченко
   photo: /assets/people/irina.radchenko.jpeg
+  details_url: http://iradche.ru/
 -
   name:
       en: Olga Kurash
@@ -48,6 +49,7 @@
       en: Maxim Kolchin
       ru: Максим Колчин
   photo: /assets/people/maxim.kolchin.jpeg
+  details_url: http://kolchinmax.ru/
 -
   name:
       en: Olga Parkhimovich
@@ -63,6 +65,7 @@
     en: Eugene Cherny
     ru: Евгений Чёрный
   photo: /assets/people/eugene.cherny.jpeg
+  details_url: http://oscii.ru/
 -
   name:
       en: Michael Galkin
@@ -107,6 +110,27 @@
   name:
       en: Maksim Lapaev
       ru: Максим Лапаев
+-
+  name:
+      en: Alexey Andreev
+      ru: Алексей Андреев
+  photo: /assets/people/alexey.andreev.jpg
+  details_url: http://aa13q.ru/
+-
+  name:
+      en: Ivan Shilin
+      ru: Иван Шилин
+  photo: /assets/people/ivan.shilin.jpeg
+-
+  name:
+      en: Daniil Garayzuev
+      ru: Даниил Гарайзуев
+  photo: /assets/people/daniil.garayzuev.jpg
+-
+  name:
+      en: Nikolay Klimov
+      ru: Николай Климов
+  photo: /assets/people/nikolay.klimov.jpeg
 ################################################################################
 # Former staff
 ################################################################################

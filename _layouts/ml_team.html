@@ -23,7 +23,7 @@ contacts:
         {% endif %}
         />
         <span>{{ person.name[page.locale] }}</span>
-        <a href="/{{ page.locale }}/{{ person.details_url }}">{{ page.contacts[page.locale] }}</a>
+        <a href="{{ person.details_url }}">{{ page.contacts[page.locale] }}</a>
     </li>
 {% endif %}{% endfor %}
   </ul>
