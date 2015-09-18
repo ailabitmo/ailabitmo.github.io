@@ -13,6 +13,7 @@
     ru: metaphacts GmbH, CEO
   email: peter.haase@fluidops.com
   photo: /assets/people/peter.haase.jpg
+  details_url: mailto:peter.haase@fluidops.com
 -
   name:
       en: Dmitry Mouromtsev
@@ -24,6 +25,7 @@
   degree:
       en: Dean, Ph.D.
       ru: Доцент, к.т.н.
+  details_url: mailto:mouromtsev@mail.ifmo.ru
 #  workplace:
 #      en: ITMO University
 #      ru: Университет ИТМО
@@ -39,11 +41,13 @@
       en: Olga Kurash
       ru: Ольга Кураш
   photo: /assets/people/olga.kurash.png
+  details_url: mailto:olga.kurash@mail.ru
 -
   name:
       en: Liubov Kovriguina
       ru: Любовь Ковригина
   photo: /assets/people/liubov.kovriguina.jpg
+  details_url: mailto:lkovriguina@gmail.com
 -
   name:
       en: Maxim Kolchin
@@ -55,11 +59,13 @@
       en: Olga Parkhimovich
       ru: Ольга Пархимович
   photo: /assets/people/olga.parkhimovich.jpeg
+  details_url: mailto:olya.parkhimovich@gmail.com
 -
   name:
       en: Fedor Kozlov
       ru: Федор Козлов
   photo: /assets/people/fedor.kozlov.jpg
+  details_url: mailto:kozlovfedor@gmail.com
 -
   name:
     en: Eugene Cherny
@@ -81,31 +87,37 @@
       en: Ilya Semerhanov
       ru: Илья Семерханов
   photo: /assets/people/ilya.semerhanov.jpg
+  details_url: mailto:i.semerhanov@gmail.com
 -
   name:
       en: Sergey Balandin
       ru: Сергей Баландин
   photo: /assets/people/sergey.balandin.jpg
+  details_url: mailto:Sergey.Balandin@fruct.org
 -
   name:
     en: Dmitriy Pavlov
     ru: Дмитрий Павлов
   photo: /assets/people/dmitry.pavlov.jpg
+  details_url: mailto:dmitry.pavlov@vismart.biz
 -
   name:
       en: Yury Emelyanov
       ru: Юрий Емельянов
   photo: /assets/people/yury.emelyanov.jpg
+  details_url: mailto:yury.emelyanov@vismart.biz
 -
   name:
     en: Sergey Popov
     ru: Сергей Попов
   photo: /assets/people/sergey.popov.png
+  details_url: mailto:sp@winghouse.ru
 -
   name:
       en: Dmitry Zamula
       ru: Дмитрий Замула
   photo: /assets/people/dmitry.zamula.jpeg
+  details_url: club.brantner@gmail.com
 -
   name:
       en: Maksim Lapaev
@@ -121,16 +133,19 @@
       en: Ivan Shilin
       ru: Иван Шилин
   photo: /assets/people/ivan.shilin.jpeg
+  details_url: mailto:proniment@gmail.com
 -
   name:
       en: Daniil Garayzuev
       ru: Даниил Гарайзуев
   photo: /assets/people/daniil.garayzuev.jpg
+  details_url: mailto:garayzuev@gmail.com
 -
   name:
       en: Nikolay Klimov
       ru: Николай Климов
   photo: /assets/people/nikolay.klimov.jpeg
+  details_url: hocico16@gmail.com
 ################################################################################
 # Former staff
 ################################################################################

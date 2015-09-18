@@ -1,0 +1,20 @@
+---
+layout: post
+title: Alexey Andreev had received an award from ESWC 2015 Summer School
+published: true
+categories: en
+---
+
+p<>. Our laboratory member Alexey Andreev in collaboration with international team of 4 members had received an award for the best student project of the Extended Semantic Web Conference 2015 Summer School for the project about identifying scientists and researchers papers and recommending persons for future collaboration. 
+
+<!--more-->
+
+p<>. "The 5th ESWC Summer School":http://summerschool2015.eswc-conferences.org/ was run in southern Crete from the August 31st to September 5th 2015. The overall goal for this event was to provide intensive training and networking opportunities for the next EWC generation. In particular organizators idea is to facilitate the creation of a new cohort of ESWC: Master’s, Ph.D. students and junior researchers who will in time become the next leaders of the ESWC conference and of the Semantic Web research area in general.
+
+p=. We wish Alexey good luck in his future work!
+
+<div><img src="/assets/posts/2015-09-05-1/photo.jpg" class="img-center img-padding" width="90%"/></div>
+
+<div><img src="/assets/posts/2015-09-05-1/award.jpg" class="img-center img-padding" width="90%"/></div>
+
+<div><img src="/assets/posts/2015-09-05-1/certificate.jpg" class="img-center img-padding" width="90%"/></div>
