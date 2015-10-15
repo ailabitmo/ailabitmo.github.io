@@ -5,14 +5,14 @@ locale: en
 
 h1(page-title). Projects
 
-h2. "SemIoT(Semantic tecnologies for Internet of Things)":{{ site.url }}/en/projects/SemIoT/
+h2. "SemIoT(Semantic tecnologies for Internet of Things)":{{ site.url }}/en/projects/semiot/
 
-p<>. SemIoT (Semantic tecnologies for Internet of Things) - project dedicated to the development of the prototype scalable service-oriented software and hardware platform based on wireless sensor networks and agent-based, semantic web technologies and cloud computing in order to aggregation, normalization, analysis and visualization of large amounts of heterogeneous structured, semi-structured and unstructured data in a distributed network of electronic consumer devices (Internet of Things). "Read more":{{ site.url }}/en/projects/SemIoT/
+p<>. SemIoT (Semantic tecnologies for Internet of Things) - project dedicated to the development of the prototype scalable service-oriented software and hardware platform based on wireless sensor networks and agent-based, semantic web technologies and cloud computing in order to aggregation, normalization, analysis and visualization of large amounts of heterogeneous structured, semi-structured and unstructured data in a distributed network of electronic consumer devices (Internet of Things). "Read more":{{ site.url }}/en/projects/semiot/
 
-h2. "OntoDia":{{ site.url }}/en/projects/OntoDia/
+h2. "OntoDia":{{ site.url }}/en/projects/ontodia/
 
-p<>. Веб-сервис позволяет подключиться через SPARQL-endpoint к любому доступному в интернете RDF-хранилищу и осуществлять пошаговую навигацию по данным, представляемых в виде графа. В навигаторе впервые решена проблема визуализации больших наборов онтологических данных. Сервис предназначен для управляемой пользователем визализации онтологических данных в виде диаграмм. Диаграммы позволяют пользователю делиться теми знаниями, которые находятся в его базе знаний и обсуждать их на концептуальном уровне. "Read more":{{ site.url }}/en/projects/OntoDia/
+p<>. Веб-сервис позволяет подключиться через SPARQL-endpoint к любому доступному в интернете RDF-хранилищу и осуществлять пошаговую навигацию по данным, представляемых в виде графа. В навигаторе впервые решена проблема визуализации больших наборов онтологических данных. Сервис предназначен для управляемой пользователем визализации онтологических данных в виде диаграмм. Диаграммы позволяют пользователю делиться теми знаниями, которые находятся в его базе знаний и обсуждать их на концептуальном уровне. "Read more":{{ site.url }}/en/projects/ontodia/
 
-h2. "FOODpedia":{{ site.url }}/en/projects/FOODpedia/
+h2. "FOODpedia":{{ site.url }}/en/projects/foodpedia/
 
-p<>. FOODpedia is a community effort to extract structured information from GoodsMatrix and make this information available on the Web. FOODpedia allows you to ask sophisticated queries against and to link other datasets on the Web to dataset. "Read more":{{ site.url }}/en/projects/FOODpedia/
+p<>. FOODpedia is a community effort to extract structured information from GoodsMatrix and make this information available on the Web. FOODpedia allows you to ask sophisticated queries against and to link other datasets on the Web to dataset. "Read more":{{ site.url }}/en/projects/foodpedia/

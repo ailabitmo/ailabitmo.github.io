@@ -1,0 +1,20 @@
+---
+layout: base
+locale: ru
+---
+
+h1(page-title). SemIoT
+
+</br>
+
+p<>. Проект по исследованию и разработке программных и аппаратных решений для Интернета вещей. Общей целью проекта является предоставление доступа к данным сенсорной сети с использованием унифицированных моделей данных и интерфейсов, которые помогают избежать сложностей, возникающих из-за разнотипности устройств в сети, и реализуют эффективный доступ к данным, интероперабельность, обнаружение ресурсов и т.д.
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/7BglNwstjoLR3X" width="100%" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px">
+
+<ol class="project-links">
+    <li>"Веб сайт":http://semiot.ru</li>
+    <li>"Github":https://github.com/semiotproject</li>
+    <li>"Twitter":https://twitter.com/semiotproject</li>
+</ol>
+
+<br/>
