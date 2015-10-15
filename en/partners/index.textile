@@ -15,9 +15,9 @@ p<>. The Research Group AKSW is hosted by the Chair of Business Information Syst
 * Research of underlying Semantic Web technologies and development of fundamental Semantic Web tools and applications
 * Maturation of strategies for fruitfully combining the Social Web paradigms with semantic knowledge representation techniques
 
-We are partner in the following projects:
+We collaborate on the following projects:
 
-* "LODIFMO":{{ site.url }}/en/projects/LODIFMO - Linked Open Data of ITMO university
+* "LODIFMO":{{ site.url }}/en/projects/lodifmo - Linked Open Data of ITMO university
 
 h2. "Linked Data Lab":http://ldlab.ifs.tuwien.ac.at
 
@@ -30,14 +30,24 @@ p<>. The Vienna University of Technology's Linked Data Lab conducts research in 
 * Semantic Sensor Networks and data stream processing
 * Semantic modeling of environmental data
 
-We are partner in the following projects:
+We collaborate on the following projects:
 
-* "YABench":{{ site.url }}/en/projects/YABench - Yet Another RDF Stream Processing Benchmark
+* "YABench":{{ site.url }}/en/projects/yabench - Yet Another RDF Stream Processing Benchmark
 
 h2. "ZAO 'Marine Computer Systems'":http://www.mcs.ru
 
 p<>. ZAO “MCS” is a scientific and production enterprise performing the development, delivery and maintenance of software products that support the computerization and automation of enterprises and organizations belonging to the industry of Maritime and river transport (ports, terminals, shipping companies and others.
 
-We are partner in the following projects:
+We collaborate on the following projects:
 
-* "SemIoT":{{ site.url }}/en/projects/SemIoT - Semantic technologies for Internet of Things
+* "SemIoT":{{ site.url }}/en/projects/semiot - Semantic technologies for Internet of Things
+
+h2. "Speech Technology Center":http://speechpro.com/
+
+!(partners-logo)/assets/logo/crt_english.png!
+
+p<>. STC is leading global provider of innovative systems in high-quality recording, audio and video processing and analysis, speech synthesis and recognition, and real-time, high-accuracy voice and facial biometrics solutions. STC innovations are used in both public and commercial sectors, from small expert laboratories, to large, distributed contact centers, to nation-wide security systems.
+
+p<>. We collaborate on the following projects:
+
+* "Development of the prototype of a dialog system":{{ site.url }}/en/projects/dialsys/

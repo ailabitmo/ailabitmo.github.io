@@ -1,8 +1,11 @@
 title:
   en: "Laboratory of Information Science and Semantic Technologies @ ITMO University"
   ru: "Международная лаборатория \"Интеллектуальные методы обработки информации и семантические технологии\" (ISST), Университет ИТМО"
+name:
+  en: "International laboratory <br/> \"Information Science and Semantic Technologies\""
+  ru: "Международная лаборатория <br/> \"Интеллектуальные методы обработки информации и семантические технологии\""
 short_title:
-  en: "Laboratory ISST"
+  en: "ISST Laboratory"
   ru: "Лаборатория ISST"
 read_more:
   en: "Read more"
